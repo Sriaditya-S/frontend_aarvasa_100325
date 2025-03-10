@@ -42,7 +42,7 @@ function M_sale_commercial_plots(){
         let iip = filtered_data[current_rating_state];
         console.log(iip);
 
-        let op = await fetch('http://localhost:8000/rate_property',
+        let op = await fetch('https://backendaarvasa100325.vercel.app//rate_property',
             {
                 method: 'POST',
                 headers: {
@@ -82,7 +82,7 @@ function M_sale_commercial_plots(){
             range: parseFloat(max),
         };
 
-        let op = await fetch('http://localhost:8000/filter_map_sale_commercial_plots',
+        let op = await fetch('https://backendaarvasa100325.vercel.app//filter_map_sale_commercial_plots',
             {
                 method: 'POST',
                 headers: {

@@ -110,7 +110,7 @@ function Rent_commercial_workspace() {
         set_load(1);
         let abd = {...formData};
         abd.images = images;
-        let op = await fetch('http://localhost:8000/post_rent_commercial_workspace',
+        let op = await fetch('https://backendaarvasa100325.vercel.app//post_rent_commercial_workspace',
             {
                 method: 'POST',
                 headers: {
