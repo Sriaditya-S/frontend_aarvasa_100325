@@ -485,7 +485,7 @@ function App() {
       </form>
     </div>
     <div class="appimage">
-      <img src="/3d-rendering-isometric-fdgdf 1.png" alt="Newsletter Image" />
+      <img src="/lunahouse.png" alt="Newsletter Image" />
     </div>
   </div>
 </section>
