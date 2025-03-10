@@ -46,7 +46,7 @@ function F(){
         let iip = initial[current_rating_state];
         console.log(iip);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app//rate_property',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/rate_property',
             {
                 method: 'POST',
                 headers: {
@@ -76,7 +76,7 @@ function F(){
 
         async function t(){
 
-            let op = await fetch('https://backendaarvasa100325.vercel.app//all_rent_properties',
+            let op = await fetch('https://backendaarvasa100325.vercel.app/all_rent_properties',
                 {
                     method: 'POST',
                     headers: {

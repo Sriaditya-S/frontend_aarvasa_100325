@@ -94,7 +94,7 @@ function Rent_residential_plots() {
         set_load(1);
         let abd = {...formData};
         abd.images = images;
-        let op = await fetch('https://backendaarvasa100325.vercel.app//post_rent_residential_plots',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/post_rent_residential_plots',
             {
                 method: 'POST',
                 headers: {

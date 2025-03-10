@@ -45,7 +45,7 @@ function Residential_projects_filter(){
 
         async function t(){
 
-            let op = await fetch('https://backendaarvasa100325.vercel.app//all_residential_projects',
+            let op = await fetch('https://backendaarvasa100325.vercel.app/all_residential_projects',
                 {
                     method: 'POST',
                     headers: {
@@ -118,7 +118,7 @@ function Residential_projects_filter(){
         let iip = initial[current_rating_state];
         console.log(iip);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app//rate_property',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/rate_property',
             {
                 method: 'POST',
                 headers: {
@@ -145,7 +145,7 @@ function Residential_projects_filter(){
         let iip = filtered_data[current_rating_state];
         console.log(iip);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app//rate_property',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/rate_property',
             {
                 method: 'POST',
                 headers: {
@@ -203,7 +203,7 @@ function Residential_projects_filter(){
 
         set_load(1);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app//filter_residential_projects',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/filter_residential_projects',
             {
                 method: 'POST',
                 headers: {

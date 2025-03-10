@@ -12,7 +12,7 @@ const ContactUs = () => {
   let send = async()=>{
 
     set_load(1);
-    let op = await fetch('https://backendaarvasa100325.vercel.app//send_consultation',
+    let op = await fetch('https://backendaarvasa100325.vercel.app/send_consultation',
       {
           method: 'POST',
           headers: {
