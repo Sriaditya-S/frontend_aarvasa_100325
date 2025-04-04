@@ -15,7 +15,7 @@ const Agents = () => {
   useEffect(()=>{
     async function t(){
 
-      let op = await fetch('https://backendaarvasa100325.vercel.app/all_agents',
+      let op = await fetch('https://backendaarvasa100325.vercel.app/agents/all',
         {
             method: 'POST',
             headers: {
