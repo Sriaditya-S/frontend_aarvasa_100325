@@ -45,7 +45,7 @@ function RPF(){
 
         async function t(){
 
-            let op = await fetch('https://backendaarvasa100325.vercel.app/all_rent_properties',
+            let op = await fetch('https://backendaarvasa100325.vercel.app/properties/all_rent',
                 {
                     method: 'POST',
                     headers: {
