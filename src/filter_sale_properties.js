@@ -51,7 +51,7 @@ function SPF(){
 
         async function t(){
 
-            let op = await fetch('https://backendaarvasa100325.vercel.app/all_sale_properties',
+            let op = await fetch('https://backendaarvasa100325.vercel.app/properties/all_sale_properties',
                 {
                     method: 'POST',
                     headers: {
