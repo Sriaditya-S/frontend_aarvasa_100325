@@ -118,7 +118,7 @@ function R() {
         set_load(1);
         let abd = {...formData};
         abd.images = images;
-        let op = await fetch('https://backendaarvasa100325.vercel.app/post_rental_properties',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/properties/post_rental_properties',
             {
                 method: 'POST',
                 headers: {
