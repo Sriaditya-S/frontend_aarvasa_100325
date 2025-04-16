@@ -82,7 +82,7 @@ function M_residential_projects_filter(){
             range: parseFloat(max),
         };
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app/filter_map_residential_projects',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/residential-projects/filter_map',
             {
                 method: 'POST',
                 headers: {
