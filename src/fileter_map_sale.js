@@ -84,7 +84,7 @@ function M_sale(){
             range: parseFloat(max),
         };
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app/filter_map_sale_properties',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/properties/filter_map_sale_properties',
             {
                 method: 'POST',
                 headers: {
