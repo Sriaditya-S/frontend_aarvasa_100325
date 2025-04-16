@@ -203,7 +203,7 @@ function RPF(){
 
         set_load(1);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app/filter_rent_properties',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/properties/filter_rent_properties',
             {
                 method: 'POST',
                 headers: {
