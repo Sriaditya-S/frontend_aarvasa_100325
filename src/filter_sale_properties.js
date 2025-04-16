@@ -203,7 +203,7 @@ function SPF(){
 
         set_load(1);
 
-        let op = await fetch('https://backendaarvasa100325.vercel.app/filter_sale_properties',
+        let op = await fetch('https://backendaarvasa100325.vercel.app/properties/filter_sale_properties',
             {
                 method: 'POST',
                 headers: {
