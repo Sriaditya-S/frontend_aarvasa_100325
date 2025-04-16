@@ -45,7 +45,7 @@ function Residential_projects_filter(){
 
         async function t(){
 
-            let op = await fetch('https://backendaarvasa100325.vercel.app/residential-projects/all',
+            let op = await fetch('https://backendaarvasa100325.vercel.app/residential-projects/filter',
                 {
                     method: 'POST',
                     headers: {
