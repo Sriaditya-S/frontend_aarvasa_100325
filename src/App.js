@@ -602,26 +602,7 @@ return (
                   <p class="appdesignation">Co-Founder & COO</p>
               </div>
           </div>
-          <div class="appteam-member">
-              <div class="appimage-container">
-                  <img src="/lakshay.png" alt="Team Member Image" />
-                  <div class="social-media-container">
-                  <a href="https://www.linkedin.com/in/lakshya-phoolwani-44b807277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a href="" target="_blank" class="social-icon">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="https://www.instagram.com/lakshya._.47?igsh=ZDYybjRsM2VtaXJ1" target="_blank" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-          </div>
-              </div>
-              <div class="appinfo-container">
-                  <p class="appname">Lakshya Phoolwani</p>
-                  <p class="appdesignation">Chief Financial Officer (CFO)</p>
-              </div>
-          </div>
+          
           <div class="appteam-member">
               <div class="appimage-container">
                   <img src="/archit.jpg" alt="Team Member Image" />
