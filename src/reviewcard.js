@@ -7,8 +7,8 @@ const ReviewCard =() =>{
             <div class="revcircle">
             </div>
             <div class="revnameofuser">
-                <h4 class="revuser">Alexandra Rivers</h4>
-                <h4 class="revusername">@Alexandra_Rver </h4>
+                <h4 class="revuser">Arjit Pandey</h4>
+                <h4 class="revusername">@_.arjit.pandey._ </h4>
             </div>
             </div>
             <div>

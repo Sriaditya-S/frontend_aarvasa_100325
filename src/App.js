@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Realestate from "./realestate";
 import ToolsAdvice from "./toolsadvice";
-import Infocard from "./infocard";
 import SearchBar from "./SearchBar";
 import { useNavigate } from "react-router-dom";
 
@@ -62,7 +61,7 @@ function App() {
     <SearchBar />
   </div>
   <div className="hero-image">
-    <img src="/Final ii 1.png" alt="Hero Image" />
+    <img src="/house.png" alt="Hero Image" />
   </div>
 
   {/* SVG Clouds */}
@@ -156,153 +155,6 @@ function App() {
     </div>
   </div>
 </section>
-
-{/**/}
-<Infocard />
-
-{/* Preferred Agents */}
-<section className="agents">
-  <h2>Aarvasa Preferred Agents in New Delhi</h2>
-  <div className="agent-list">
-    {/* Agent Card */}
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since</p> 
-            <p>2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-      
 
       {/*Bachelor's*/}
       <section className="Bachelor">
@@ -666,153 +518,6 @@ return (
   </div>
 </section>
 
-{/**/}
-<Infocard />
-
-{/* Preferred Agents */}
-<section className="agents">
-  <h2>Aarvasa Preferred Agents in New Delhi</h2>
-  <div className="agent-list">
-    {/* Agent Card */}
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since</p> 
-            <p>2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-    <div className="agent-cardp">
-      {/* First Row */}
-      <div className="card-row first-row">
-        <img src="/image4.png" alt="Agent" className="agent-photo" />
-        <div className="agent-headerapp">
-          <h3>Av Preferred</h3>
-          <h4>Vivek Kumar Mishra</h4>
-        </div>
-        <img src="/logo.png" alt="Badge" className="badge-logo" />
-      </div>
-      {/* Second Row */}
-      <div className="card-row second-row">
-        <div className="propertyapp-info">
-          <img src="/image5.png" alt="MV Properties" className="propertyapp-logo" />
-          <div className="propertyapp-details">
-            <p>MV Properties</p>
-            <p>Operating Since 2006</p>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="buyers-info">
-          <p>Buyers Served</p>
-          <p>2500+</p>
-        </div>
-      </div>
-      {/* Third Row */}
-      <div className="card-row third-row">
-        <h3>45</h3>
-        <span>Properties for Sale</span>
-        <h3>3</h3>
-        <span>Properties for Rent</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-      
-
       {/*Bachelor's*/}
       <section className="Bachelor">
         <div className="absolute top-0 left-1/4 w-32 h-32 rounded-full bg-white opacity-10 blur-xl"></div>
@@ -994,7 +699,7 @@ return (
       </form>
     </div>
     <div class="appimage">
-      <img src="/3d-rendering-isometric-fdgdf 1.png" alt="Newsletter Image" />
+      <img src="/lunahouse.png" alt="Newsletter Image" />
     </div>
   </div>
 </section>
